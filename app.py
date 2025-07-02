@@ -195,4 +195,4 @@ with gr.Blocks(theme=gr.themes.Soft(), title="AI Arabic Poet's Assistant") as ap
     )
 
 # Launch the application
-iface.launch(server_name="0.0.0.0", server_port=7860)
+app.launch(server_name="0.0.0.0", server_port=7860)
