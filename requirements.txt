@@ -1,0 +1,10 @@
+pandas
+requests
+ta
+google-generativeai
+gradio
+python-dotenv
+mplfinance
+matplotlib
+gspread
+oauth2client
