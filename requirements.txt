@@ -5,6 +5,7 @@ google-generativeai
 gradio
 python-dotenv
 mplfinance
+scipy
 matplotlib
 gspread
 oauth2client
