@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt # <-- NEW: For plotting
 
 # --- SETUP AND MODEL INITIALIZATION (No Changes) ---
 try:
-    genai.configure(api_key="YOUR_GEMINI_API_KEY") # <-- IMPORTANT: SET YOUR KEY
+    genai.configure(api_key="AIzaSyDHBIXCY7b0rPNCtTEUj4JhylQ14wO0ozA") # <-- IMPORTANT: SET YOUR KEY
 except Exception as e:
     print(f"API Key Configuration Error: {e}\nPlease set your Gemini API key.")
 
@@ -71,9 +71,14 @@ def download_data():
 # --- NEW: STATISTICAL ANALYSIS FUNCTION ---
 
 SCORE_COLUMNS = [
-    "Meter Score (1-5)", "Sound Harmony Score (1-5)", "Imagery Score (1-5)",
-    "Emotional Depth Score (1-5)", "Cultural Relevance Score (1-5)",
-    "Coherence/Flow Score (1-5)", "Originality Score (1-5)", "Usefulness Score (1-5)"
+    "Meter and Rhythm (الوزن والإيقاع) Score (1-5)",
+    "Sound Harmony (القافية والانسجام الصوتي) Score (1-5)",
+    "Imagery and Metaphor (الصورة الشعرية) Score (1-5)",
+    "Emotional Depth (العمق العاطفي) Score (1-5)",
+    "Cultural Relevance (الأصالة الثقافية) Score (1-5)",
+    "Coherence and Flow (التماسك والسلاسة) Score (1-5)",
+    "Originality (الأصالة والابتكار) Score (1-5)",
+    "Usefulness to Poet (الفائدة للشاعر) Score (1-5)"
 ]
 
 def perform_analysis(novice_file, expert_file):
